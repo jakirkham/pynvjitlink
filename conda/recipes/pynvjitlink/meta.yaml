@@ -16,6 +16,8 @@ source:
   path: ../../..
 
 build:
+  script_env:
+    - CMAKE_GENERATOR=Ninja
   script:
     - {{ PYTHON }} -m pip install . -vv
   ignore_run_exports_from:

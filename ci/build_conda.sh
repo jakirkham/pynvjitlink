@@ -9,8 +9,6 @@ source rapids-configure-sccache
 
 source rapids-date-string
 
-export CMAKE_GENERATOR=Ninja
-
 rapids-print-env
 
 rapids-logger "Begin py build"
